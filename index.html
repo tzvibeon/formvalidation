@@ -8,18 +8,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-
-    <button class="btn">Login</button>
-    <div class="popup-wrapper">
-        <div class="popup">
-            <div class="popup-content">
-                <div class="popup-close">&#10060;</div>
-                <div class="container col-md-3">
-                    <form autocomplete="off">
+                    <form autocomplete="off" >
                         <div class="form-row">
-                            <div class="col-md-12 mb-3">
+                            <div class="col-sm-4 mx-auto">
                                 <div><label for="validationServer01">User Name</label>
-                                    <input type="text" class="form-control" id="name" value="" name="name">
+                                    <input type="text"  id="name" value="" name="name" class="form-control">
                                     <div class="valid-feedback">
                                         Your name is valid!
                                     </div>
@@ -28,7 +21,7 @@
                                     </div></div><br>
                                 <div>
                                     <label for="validationServer01">Email</label>
-                                <input type="email" class="form-control" id="email" value="" name="email">
+                                <input type="email"  id="email" value="" name="email" class="form-control">
                                 <div class="valid-feedback">
                                     Your email is valid!
                                 </div>
@@ -38,26 +31,23 @@
                                 </div><br>
                                 <div>
                                     <label for="validationServer01">Password</label>
-                                <input type="text" class="form-control" id="password" value="" name="password">
+                                <input type="password"  id="password" value="" name="password" class="form-control">
                                 <div class="valid-feedback">
                                     Your Password is valid!
                                 </div>
                                 <div class="invalid-feedback">
                                     Password must be contain aleast 8 character and number
                                 </div>
-                                </div>
+                                </div><br>
+                                <button type="submit" class="btn btn-primary " name="disabled">
+                                    Submit
+                                </button> 
                              </div>
                              </div>
-                            <button type="submit" class="btn btn-primary" disabled name="disabled">
-                                Submit
-                            </button>   
+                            
                 
                         </form>
-                        </div>
-            </div>
-        </div>
-    </div>
-    <h1></h1>
+                        
     
     
 </body>

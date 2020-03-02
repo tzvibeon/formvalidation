@@ -3,25 +3,8 @@
 let wrap=document.querySelector(".popup-wrapper");
 let close=document.querySelector(".popup-close");
 
-//for click me
-clk=()=>{
-    wrap.style.display="block";
-}
-btn.addEventListener("click",clk);
-//for  close or cancel
-closeClick=()=>{
- wrap.style.display="none";
-}
-close.addEventListener("click",closeClick);
-
-window.onclick=function(e){
-    if(e.target==wrap){
-         wrap.style.display="none";
-    }
-}
-
 // //let username=document.querySelector("#username");
-//let btn=document.querySelector(".btn");
+//let btn=document.querySelector(s".btn");
  let emailReg=/((^[a-z]{5,})[a-zA-Z0-9]+\@[a-z]{5}\.[a-z]{2,5})/;
  let passReg=/.[a-zA-Z0-9]{7}/
  let userReg=/(^[a-z]{5})[a-zA-Z0-9]{2,15}$/;
