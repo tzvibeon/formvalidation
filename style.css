@@ -3,6 +3,11 @@ html,body{
 
     
 }
+h2{
+    padding-bottom: 10px;
+    text-align: center;
+
+}
 
 button{
     width: 100%;
